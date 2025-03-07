@@ -4,9 +4,9 @@
 
 hier gehoert eine kurze beschreibung hin, worum es in diesem Artikel geht
 
-## Vorraussetzungen
+## Vorraussetzungen/versionsnummer
 
-hier gehoeren Systemvorraussetzungen hin
+hier gehoeren die Versionsnummer die vom Fehler betroffen sind und/oder die Systemvorraussetzungen hin
 
 ## Main Content
 
