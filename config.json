@@ -1,0 +1,16 @@
+{
+  "theme": {
+    "name": "default",
+    "color": "light",
+    "font": "Arial"
+  },
+  "metadata": {
+    "author": "Your Name",
+    "license": "MIT",
+    "version": "1.0.0"
+  },
+  "articles": {
+    "defaultVisibility": "public",
+    "maxArticles": 100
+  }
+}
