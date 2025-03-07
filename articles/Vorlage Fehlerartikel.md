@@ -24,8 +24,8 @@ Falls der Fehler gefixt werden kann, dann sollte hier die Anleitung rein. am bes
 ### Fehlervermeidung
 
 Falls der Fehler wieder auftreten kann, man ihn jedoch vermeiden kann, soll die Beschreibung hier rein
-Bspw durch [ˆ1]
+Bspw durch [^1]
 ## Quellen / weitere ressourcen 
 
 Falls es quellen oder links zu updates gibt, hier rein
-[ˆ1]: hier der link zur fussnote
+[^1]: hier der link zur fussnote
