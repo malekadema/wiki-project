@@ -1,4 +1,4 @@
-# Article 2 Title
+# Hosts Datei im MacOS System
 
 ## Introduction
 
