@@ -45,8 +45,6 @@ purchases through retail and Volume Licensing channels.
 
 ### Preise
 
-am besten in tabellarischer form mit link zum shop
-
 ### Fehlervermeidung
 
 ## Quellen / weitere ressourcen
