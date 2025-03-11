@@ -49,9 +49,6 @@ am besten in tabellarischer form mit link zum shop
 
 ### Fehlervermeidung
 
-falls Probleme im vorhinen bekannt sind, oder man gewisse Workarounds braucht um das system zu installieren, gehoert es hier hin. Links in die quellen [^1]
+## Quellen / weitere ressourcen
 
-## Quellen / weitere ressourcen 
-
-Falls es quellen oder links zu updates gibt, hier rein  
-[^1]: hier der link zur fussnote
+Falls es quellen oder links zu updates gibt, hier rein
