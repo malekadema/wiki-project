@@ -47,6 +47,9 @@ Die Lizenzen gehen nach Nutzerzahl und Umfang des Programmes. Im Standard ist es
 
 ### Fehlervermeidung
 
+Wenn Sie ein Windows Server-Betriebssystem verwenden, stellen Sie sicher, dass die
+Rollen TSE/RDS und TSE/RDS Lizenzen nicht installiert sind
+
 ## Quellen / weitere ressourcen 
 
 [offizielle Webseite](https://terminalserviceplus.de)
