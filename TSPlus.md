@@ -30,6 +30,7 @@ TSPlus ist als guenstiger Ersatz fuer Windows RDP gedacht, da es Lifetime Lizenz
 TSPlus soll laut eigener Angabe nur Daten uebertragen, keine Bilder, was den Remote Datensparsamer und schneller machen soll. Auf meinem Testsystem konnte ich keinen Unterschied feststellen.
 
 TSPlus bietet verschiedene remote Modi, um den Nutzerzugang einerseits zu erleichtern und andererseits eine Fehlnutzung des Systems zu verhindern:
+
 - **Remote Desktop Client, vollstaendiger Zugriff auf den Desktop (Wie der Windows RDP)** TSplus Remote Access ist kompatibel mit jedem RDP Client von jedem Betriebssystem, also Windows, Linux, Android oder MAC OS. Somit kann ein sofortiger problemloser Remote Zugang zu einem TSplus Server erfolgen.
 Weiterhin bietet TSplus einen eigenen mit umfangreichen Features versehenen 1-click Connection Client der über den im TSplus Remote Access enthaltenen Client Generator konfiguriert werden kann.
 Zu beachten ist hierbei das nach der Generierung des TSplus RDP Client lediglich ein File mit den Parametern erzeugt wird und dieses dann einmalig mit dem Setup Connection Client Tool zur ausführbaren Datei compiliert wird.
@@ -43,23 +44,21 @@ Es können eine oder mehrere Applikationen zur remote Nutzung zur Verfügung ges
 
 [unter diesem link gibt es eine Vorschau der verschiedenen modi mit kurzen Videos](https://terminalserviceplus.de/tsplus/remote-access-features/#rdesktop)
 
-
 ### Lizenzmodell
 
 Die Lizenzen gehen nach Nutzerzahl und Umfang des Programmes. Im Standard ist es nur der RDP Client, HTML5 Browser Zugriff muss dazu gebucht werden. In der "rechts unten" Enterprise Edition ist fast alles enthalten fuer aktuell 1930EUR (Stand 11.03. 2025), nur die 2FA option muss fuer jeden Server einzeln zugebucht werden fuer 250EUR pro Server.
-[hier sieht man das lizenzmodell](https://terminalserviceplus.de/preise/) 
+[hier sieht man das lizenzmodell](https://terminalserviceplus.de/preise/)
 
 ### Preise
 
 1930EUR fuer eine Enterprise Lizenz Stand 11. 03. 2025
-[hier sieht man das lizenzmodell](https://terminalserviceplus.de/preise/) 
-
+[hier sieht man das lizenzmodell](https://terminalserviceplus.de/preise/)
 
 ### Fehlervermeidung
 
 Wenn Sie ein Windows Server-Betriebssystem verwenden, stellen Sie sicher, dass die
 Rollen TSE/RDS und TSE/RDS Lizenzen nicht installiert sind
 
-## Quellen / weitere ressourcen 
+## Quellen / weitere ressourcen
 
 [offizielle Webseite](https://terminalserviceplus.de)
