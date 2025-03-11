@@ -6,10 +6,8 @@ Welcome to the Wiki Project! This project is designed to create a simple and eff
 
 The project consists of the following main components:
 
-- **articles/**: This directory contains all the articles written in Markdown format.
-  - **article1.md**: The content of the first article.
-  - **article2.md**: The content of the second article.
-  - **article3.md**: The content of the third article.
+- **vorlage**: Vorlage. In this folder are the raw templates for the articles.
+- **root**: here are all the articles located
 
 - **README.md**: This file provides documentation for the project, including usage instructions and project structure.
 
@@ -17,7 +15,7 @@ The project consists of the following main components:
 
 ## Usage
 
-To use the wiki, simply navigate to the `articles` directory and open any of the Markdown files to view the content. You can also edit these files to add or modify articles as needed.
+To use the wiki, simply navigate to the `vorlage` directory and open any of the Markdown files to view the content. then copy it to the root, rename it corresponding to your article you want to write and fill it with the needed information
 
 ## Configuration
 
