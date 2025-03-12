@@ -21,6 +21,17 @@ Clientseitig: Ein RDP Client (OS unabhaengig) oder ein HTML5-faehiger Browser, f
 
 ## Hauptteil
 
+### Systemanforderungen
+
+|number of users | Hardware |
+| --- | --- |
+| 3-5 | I5 or above One CPU 2 GHZ Minimum : 4 GB RAM Recommended : 8 GB RAM |
+| 10 | I5 or above One CPU 2 GHZ Minimum : 8 GB RAM Recommended : 16 GB RAM |
+| 25 | One CPU I7 or Xeon Minimum : 16 GB RAM Recommended : 32 GB RAM |
+|50+ | 32 GB Dual CPU - SSD Disk dedicated to the system Minimum : 32 GB RAM Recommended : 64 GB RAM |
+
+Each server (physical or virtual ones) can potentially handle up to 50 concurrent users. For over 50 concurrent sessions, we recommend using a farm of servers with the Load Balancing feature available in TSplus Remote Access Enterprise Edition.
+
 ### Einsatzzweck der software
 
 TSPlus ist als guenstiger Ersatz fuer Windows RDP gedacht, da es Lifetime Lizenzen gibt. TSPlus kann mit jedem RDP Client oder HTML5-faehigen Browser (falls der webdienst verwendet wird) genutzt werden.
