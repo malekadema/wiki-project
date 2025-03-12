@@ -55,8 +55,6 @@ Die Anweisungen, um Ihre Admins zu aktualisieren, finden Sie unter dem folgenden
 Die Anleitung zum Bulk-Upload der Benutzerliste finden Sie unter folgendem Link:
 [Bulk upload der Benutzerliste](https://learn.microsoft.com/de-de/visualstudio/subscriptions/assign-license-bulk)
 
-Bitte lassen Sie mich wisse, ob Sie die Anweisungen befolgen konnten und dieser Fall geschlossen werden darf oder ob Sie noch weitere Unterstützung benötigen.
-
 ### Preise
 
 ### Fehlervermeidung
