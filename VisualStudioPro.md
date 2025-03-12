@@ -8,7 +8,7 @@ hier gehoert eine kurze Beschreibung hin, worum es in diesem Artikel geht
 
 hier gehoeren Systemvorraussetzungen hard- sowie software hin
 
-## Main Content
+## Hauptteil
 
 ### einsatzzweck der software
 

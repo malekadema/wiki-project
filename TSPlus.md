@@ -19,7 +19,7 @@ Bei [TSPlus](https://terminalserviceplus.de) handelt es sich um ein deutsche Pro
 Hostseitig: Ein Windows Server oder Windows 11 Pro. Bei Windows Server werden UserCALs benoetigt
 Clientseitig: Ein RDP Client (OS unabhaengig) oder ein HTML5-faehiger Browser, fuer den Browser RDP
 
-## Main Content
+## Hauptteil
 
 ### Einsatzzweck der software
 
