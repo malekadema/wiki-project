@@ -55,7 +55,7 @@ Damit User gesyncht werden, muessen mindestens folgende Felder in ihrem User Pro
 
 ### Fehlervermeidung
 
-Der ADConnector gibt keine sichtbaren fehlermeldungen raus. ich musste erst alle IP Adressen durch die Firewall lassen, um dort eine Konnektivitaet herstellen zu koennen.
+Der ADConnector gibt keine sichtbaren fehlermeldungen raus. ich musste zuerst einiges ausprobieren um dann festzustellen, dass wohl die ports allein nicht reichen, sondern alle IP Adressen in den firewall regeln eingetragen sein muessen, um dort eine Konnektivitaet herstellen zu koennen. Bei einem Produktivsystem wuerde ich auf jeden fall die regeln deutlich enger gestalten und auch ueberfluessiges nach dem sync wieder deaktivieren/blocken.
 
 ## Quellen / weitere ressourcen
 

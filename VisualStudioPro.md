@@ -43,6 +43,20 @@ The Visual Studio subscription or Visual Studio Professional standalone license 
 another user—such as when a person leaves the team—but not within 90 days of the last assignment for
 purchases through retail and Volume Licensing channels.
 
+### Umzug Lizenzen
+
+ich habe folgene Antwort vom Microsoft Support erhalten, als ich explizit nach dem umzug gefragen habe:
+Wir empfehlen Ihnen, dass Sie vor dem Umzug eine Backup-Kopie Ihrer Benutzer erstellen, in dem Sie die Benutzer-Liste exportieren. Sie können die Anweisungen dafür unter dem folgenden Link finden:
+[Exportieren der Abonnementinformationen in Visual Studio-Abonnements - Visual Studio Subscription | Microsoft Learn](https://learn.microsoft.com/de-de/visualstudio/subscriptions/exporting-subscriptions)
+
+Die Anweisungen, um Ihre Admins zu aktualisieren, finden Sie unter dem folgenden Link:
+[Auswirkungen des Änderns von Organisationsnamen auf Visual Studio-Abonnements - Visual Studio Subscription | Microsoft Learn](https://learn.microsoft.com/de-de/visualstudio/subscriptions/change-org-email-addresses#what-to-do-if-your-organizations-email-addresses-change)
+
+Die Anleitung zum Bulk-Upload der Benutzerliste finden Sie unter folgendem Link:
+[Bulk upload der Benutzerliste](https://learn.microsoft.com/de-de/visualstudio/subscriptions/assign-license-bulk)
+
+Bitte lassen Sie mich wisse, ob Sie die Anweisungen befolgen konnten und dieser Fall geschlossen werden darf oder ob Sie noch weitere Unterstützung benötigen.
+
 ### Preise
 
 ### Fehlervermeidung
