@@ -7,12 +7,13 @@ Sammlung von Befehlen fuer Docker
 ## Vorraussetzungen
 
 Terminal Programm
+SSH Zugang
 
 ## Hauptteil
 
 ### commands in tabellenform
 
-| befehl | beschreibung | 
+| befehl | beschreibung |
 | --- | --- |
 | docker ps | zeigt eine liste alle laufender Docker Container an |
 | docker logs [container-name-or-id] | zeigt das aktuelle Log des Docker Containers |
