@@ -55,6 +55,10 @@ Die Anweisungen, um Ihre Admins zu aktualisieren, finden Sie unter dem folgenden
 Die Anleitung zum Bulk-Upload der Benutzerliste finden Sie unter folgendem Link:
 [Bulk upload der Benutzerliste](https://learn.microsoft.com/de-de/visualstudio/subscriptions/assign-license-bulk)
 
+zusammengefasst aus dem whitepaper kann man noch ergänzen:
+
+>The document does mention that Visual Studio subscriptions or Visual Studio Professional standalone licenses can be reassigned to another user but not within 90 days of the last assignment (unless it's due to permanent hardware failure).  This implies a degree of flexibility in transferring the license to a different person, but it's not a simple process of simply changing an email address.
+
 ### Preise
 
 ### Fehlervermeidung
