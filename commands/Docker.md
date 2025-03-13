@@ -20,7 +20,7 @@ SSH Zugang
 | docker logs [container-name-or-id] -f | | laesst das log des gewahlten containers in echtzeit laufen |
 | timedatectl list-timezones | zeigt eine liste aller verfuegbaren zeitzonen an |
 | sudo timedatectl set-timezone [your-timezone] | Docker Container auf die gewaehlte Zeitzone stellen |
-| timedatectl | Zeit und Zeitzone ueberfpruefen |
+| timedatectl | Zeit und Zeitzone ueberpruefen |
 
 ## Quellen / weitere ressourcen
 
