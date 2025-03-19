@@ -10,7 +10,7 @@ hier gehoeren Systemvorraussetzungen hard- sowie software hin
 
 ## Hauptteil
 
-### einsatzzweck der software
+### Einsatzzweck der Software
 
 kurzer use case der software
 
