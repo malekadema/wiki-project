@@ -60,6 +60,11 @@ Es können eine oder mehrere Applikationen zur remote Nutzung zur Verfügung ges
 Die Lizenzen gehen nach Nutzerzahl und Umfang des Programmes. Im Standard ist es nur der RDP Client, HTML5 Browser Zugriff muss dazu gebucht werden. In der "rechts unten" Enterprise Edition ist fast alles enthalten fuer aktuell 1930EUR (Stand 11.03. 2025), nur die 2FA option muss fuer jeden Server einzeln zugebucht werden fuer 250EUR pro Server.
 [hier sieht man das lizenzmodell](https://terminalserviceplus.de/preise/)
 
+Auf die Frage ob wir MS RDS CALs benoetigen:
+
+*Sie benötigen keinen MS Windows Terminalserver sondern nur einen normalen Windows Server (keine Essentials Edition) oder ein Windows Workstation OS (z.Bsp. W11 PRO).
+Weiterhin benötigen Sie keine MS RDS CAL`s oder andere MS Lizenzen, außer bei einem Server OS natürlich die User CAL´s.*
+
 ### Preise
 
 1930EUR fuer eine Enterprise Lizenz Stand 11. 03. 2025

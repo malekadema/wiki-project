@@ -2,7 +2,13 @@
 
 ## Einleitung
 
-Bei Zabbix handelt es sich um eine Monitoring Software die mit und ohne Agenten betrieben werden kann.
+Zabbix ist eine Open-Source-Überwachungslösung der Enterprise-Klasse.
+
+Zabbix ist eine Software, die zahlreiche Parameter eines Netzwerks sowie die Gesundheit und Integrität von Servern, virtuellen Maschinen, Anwendungen, Diensten, Datenbanken, Websites, Cloud-Umgebungen und mehr überwacht. Zabbix verwendet einen flexiblen Benachrichtigungsmechanismus, der es Benutzern ermöglicht, E-Mail-basierte Alarme für nahezu jedes Ereignis zu konfigurieren. Dies ermöglicht eine schnelle Reaktion auf Serverprobleme. Zabbix bietet ausgezeichnete Berichtsfunktionen und Datenvisualisierungsmöglichkeiten auf Basis der gespeicherten Daten. Dadurch eignet sich Zabbix ideal für die Kapazitätsplanung.
+
+Zabbix unterstützt sowohl Polling als auch Trapping. Alle Berichte und Statistiken von Zabbix sowie Konfigurationsparameter sind über eine webbasierte Benutzeroberfläche zugänglich. Diese stellt sicher, dass der Status des Netzwerks und die Gesundheit der Server von jedem Standort aus überwacht werden können. Richtig konfiguriert kann Zabbix eine wichtige Rolle bei der Überwachung der IT-Infrastruktur spielen – sowohl für kleine Organisationen mit wenigen Servern als auch für große Unternehmen mit einer Vielzahl von Servern.
+
+Zabbix ist kostenlos. Es wird unter der AGPL-3.0-Lizenz geschrieben und vertrieben. Das bedeutet, dass der Quellcode frei verteilt und der Allgemeinheit zugänglich ist.
 
 ## Vorraussetzungen
 
@@ -37,7 +43,6 @@ Zudem gibt es out-of-the-box-Templates für gängige apps, Hardware und Betriebs
 - intelligente Schwellwerte und Trendprognosen sollen Probleme frühzeitg erkennen und noch davor warnen.
 - mittels Machine Learning sollen Problemschwellen automatisch angepasst werden.
 - Sammeln von Daten mit und ohne Agenten auf den Quellsystemen möglich
-- 
 
 ### Lizenzmodell
 
