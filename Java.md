@@ -66,6 +66,22 @@ Es ist wichtig zu beachten, dass die meisten dieser Distributionen unter der GPL
 - [Red Hat OpenJDK](https://developers.redhat.com/products/openjdk/overview)
 - [SAP SapMachine](https://sap.github.io/SapMachine/)
 
+### Lizenzpflicht
+
+Bis einschließlich JDK 8u202 konnte das Oracle JDK unter der “Binary Code License” (BCL) kostenlos genutzt werden. Ab JDK 8u211 änderte Oracle die Lizenzbedingungen, sodass für kommerzielle Nutzung eine kostenpflichtige Lizenz erforderlich ist.  
+
+Die Version JDK 8u202 entspricht Java SE Development Kit 8 Update 202.
+
+Details zu JDK 8u202
+- Versionsnummer: 1.8.0_202 aka Java SE 8 Update 202 (JDK 8u202)
+- Veröffentlichungsdatum: 15. Januar 2019
+- Lizenz: Oracle JDK 8u202 war die letzte Version, die unter der alten, kostenlosen Binary Code License (BCL) erhältlich war.
+- Ab JDK 8u211 änderte Oracle die Lizenzbedingungen, sodass für kommerzielle Nutzung eine kostenpflichtige Lizenz erforderlich wurde.
+**Support:**
+- Oracle bietet keinen öffentlichen Support mehr für diese Version.
+- OpenJDK 8u202 ist weiterhin unter GPLv2 mit Classpath-Ausnahme verfügbar.
+- Alternative OpenJDK-Distributionen (z. B. Adoptium, Amazon Corretto, Azul Zulu) bieten weiterhin Support.
+
 ### Preise
 
 am besten in tabellarischer form mit link zum shop
