@@ -66,7 +66,7 @@ Es ist wichtig zu beachten, dass die meisten dieser Distributionen unter der GPL
 - [Red Hat OpenJDK](https://developers.redhat.com/products/openjdk/overview)
 - [SAP SapMachine](https://sap.github.io/SapMachine/)
 
-### Lizenzpflicht
+## Lizenzpflicht
 
 Bis einschließlich JDK 8u202 konnte das Oracle JDK unter der “Binary Code License” (BCL) kostenlos genutzt werden. Ab JDK 8u211 änderte Oracle die Lizenzbedingungen, sodass für kommerzielle Nutzung eine kostenpflichtige Lizenz erforderlich ist.  
 
@@ -77,10 +77,28 @@ Details zu JDK 8u202
 - Veröffentlichungsdatum: 15. Januar 2019
 - Lizenz: Oracle JDK 8u202 war die letzte Version, die unter der alten, kostenlosen Binary Code License (BCL) erhältlich war.
 - Ab JDK 8u211 änderte Oracle die Lizenzbedingungen, sodass für kommerzielle Nutzung eine kostenpflichtige Lizenz erforderlich wurde.
+
 **Support:**
 - Oracle bietet keinen öffentlichen Support mehr für diese Version.
 - OpenJDK 8u202 ist weiterhin unter GPLv2 mit Classpath-Ausnahme verfügbar.
 - Alternative OpenJDK-Distributionen (z. B. Adoptium, Amazon Corretto, Azul Zulu) bieten weiterhin Support.
+
+## JavaJDK durch OpenJDK ersetzen
+
+### Unterschiede
+
+- Java Flight Recorder und Mission Control (seit Java 11 Open Source, aber vorher proprietär)
+- Grafik-Rendering & Fonts (unterschiedliche Implementierungen)
+- Lizenzierte Verschlüsselungstechnologien
+
+### ersetzen in Windows
+- Lade das gewünschte OpenJDK von einer der oben genannten Seiten herunter.
+- Entpacke die Datei nach C:\Program Files\Java\openjdk-17 (oder einen anderen Pfad deiner Wahl).
+- Setze die Umgebungsvariablen:
+    - Systemsteuerung → Erweiterte Systemeinstellungen → Umgebungsvariablen
+    - Bearbeite JAVA_HOME und setze den Pfad auf C:\Program Files\Java\openjdk-17
+    - Füge %JAVA_HOME%\bin zur Path-Variable hinzu
+
 
 ### Preise
 
