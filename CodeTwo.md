@@ -78,12 +78,10 @@ Im zweiten Feld wieder die Ausnahmen aus der vorherigen Auswahl.
 es koennen Keywords verwendet werden um eine Regel weiter zu filtern. Auch hier kann entschieden werden, ob das Keyword enthalten sein muss, um die Regel auszuloesen oder ein Keyword die Regel unterdrueckt.
 ![Cloud Rule erstellen](bilder/CodeTwo/createRuleKeywords.png "create rule")
 
-Es koennen einzelne Woerter oder ganze Phrasen, sowie ein * als Pre/Suffix verwendet werden. Ausserdem wird noch unterschieden, ob das Keyword im Betreff, Text der email oder eins von beidem sein muss
-Zusaetzlich kann man sogar nocht das Keyword aus der mail entfernen lassen.
-
+Es koennen einzelne Woerter oder ganze Phrasen, sowie ein * als Pre/Suffix verwendet werden. Ausserdem wird noch unterschieden, ob das Keyword im Betreff, Text der email oder eins von beidem sein muss. Das Keyword/die Phrase wird nicht case sensitive untersucht.
+Zusaetzlich kann man sogar nocht das Keyword aus der mail entfernen lassen.<br>
 ![Cloud Rule erstellen](bilder/CodeTwo/createRuleKeywords2.png "create rule")
-
-
+<br>
 #### Scheduler(optional)
 Ueber den Scheduler kann die Regel auch Zeitlich gesteuert werden. Dazu muss als erstes die Zeitzone angegeben werden. Es koennen dann komplett freie Zeitintervalle eingegeben werden (sowas wie generelle Feiertage wie Weihnachten) mit Datum und Zeit, oder taeglich/woechentlich/monatlich wiederkehrende Zeiten angegeben werden.
 ![Cloud Rule erstellen](bilder/CodeTwo/createRuleScheduler.png "create rule")
