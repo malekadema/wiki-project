@@ -98,4 +98,4 @@ Ueber dieses Logic koennen nun Kaskaden aufgebaut werden. Dabei sollte man vom S
 
 ## Quellen / weitere ressourcen
 
-Falls es quellen oder links zu updates gibt, hier rein
+[Video zur Erstellung von Cloud Rules](https://www.youtube.com/watch?v=MKc0JRd0B7s&t=85s)
