@@ -21,10 +21,10 @@ Azure Front Door verwendet das anycast-Protokoll mit geteiltem TCP auf Schicht 7
 | Gewichtet | Verwendet vom Administrator an Ihre Back-Ends zugewiesene Gewichtungen, wenn Sie Datenverkehr über eine Sammlung von Back-Ends verteilen möchten. |
 | Sitzungsaffinität | Ermöglicht ihnen das Konfigurieren der Sitzungsaffinität für Ihre Front-End-Hosts oder -Domänen. Dadurch wird sichergestellt, dass Anforderungen desselben Endbenutzers an dasselbe Back-End gesendet werden. |
 
-
 ### Features
 
 Azure Front Door stellt die folgenden wichtigsten CDN-Features zur Verfügung:
+
 - Beschleunigung dynamischer Websites
 - CDN-Cacheregeln
 - Unterstützung benutzerdefinierter HTTPS-Domänen
@@ -32,21 +32,23 @@ Azure Front Door stellt die folgenden wichtigsten CDN-Features zur Verfügung:
 - Dateikomprimierung
 - Geofilterung
 
-### Software Firewall 
+### Software Firewall
 
 Die Azure Front Door-Webanwendungsfirewall basiert auf Richtlinien, die Sie einer oder mehrere Instanzen von Azure Front Door zuordnen können. Diese Firewallrichtlinien bestehen aus:
+
 - Verwalteten Regelsätzen, einer Sammlung von vorkonfigurierten Regeln.
 - Benutzerdefinierten Regeln, die Sie konfigurieren können.
 
 #### Firewall Regeln
 
 Eine Regel besteht aus:
+
 - Einer Bedingung, die bestimmt, ob eine Regel für den jeweiligen Datenverkehr gilt.
 - Eine Priorität, die, basierend auf der Wichtigkeit, die Reihenfolge bestimmt, in der eine Regel verarbeitet wird.
 - Einer Aktion: Kann Zulassen, Blockieren Protokollieren oder Umleiten sein.
 - Einem Modus. Es gibt zwei Modi:
-    - Erkennung: In diesem Modus nimmt Azure Web Application Firewall nur Überwachung und Protokollierung vor. Es wird keine andere Aktion ausgeführt.
-    - Prävention: In diesem Modus führt Azure Web Application Firewall die definierte Aktion aus.
+  - Erkennung: In diesem Modus nimmt Azure Web Application Firewall nur Überwachung und Protokollierung vor. Es wird keine andere Aktion ausgeführt.
+  - Prävention: In diesem Modus führt Azure Web Application Firewall die definierte Aktion aus.
 
 ### Produkte mit geringerem Funktionsumfang für speziellere Lösungen
 
@@ -64,15 +66,16 @@ Eine Regel besteht aus:
 Preise
 
 In Azure Front Door wird nach ausgehenden Datenübertragungen, eingehenden Datenübertragungen und Routingregeln abgerechnet. Wenn Sie Azure Web Application Firewall und Azure Content Delivery Network implementieren, ist Folgendes im Preis enthalten:
+
 - Eine monatliche Gebühr pro Richtlinie.
 - Weitere Gebühren für benutzerdefinierte Regeln und verwaltete Regelsätze.
 
 Die Abrechnung für Azure Front Door Standard/Premium basiert auf den folgenden Kriterien:
+
 - Auf Stundenbasis berechnete feste Gebühr
 - Ausgehende Datenübertragungen
 - Eingehende Datenübertragungen
 - Vom Client eingehende Anforderungen an Azure Front Door-POPs (Point-of-Presence).
-
 
 ### Fehlervermeidung
 
