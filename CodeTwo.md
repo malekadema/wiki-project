@@ -53,28 +53,33 @@ Eine Erklärung der einzelnen Bereiche sind weiter oben unter Funktion
 In den Regeln selbst kann definiert werden, was passiert wenn die Regel nicht greift. Im Standard wird dann  die nächste Regel in der Kaskade angewendet. Das bedeutet, die Regel-Kaskade sollte von der speziellsten zur allgemeinsten Regel konzipiert werden.
 
 ### Beispiel einer Regel
+
 Als Beispiel erstellen wir eine neue Cloud Regel:
 Cloud aufklappen, unten über "create rule" eine neue Regel erstellen
 ![Cloud Rule erstellen](bilder/CodeTwo/createRule.png "create rule")
 
 #### Name
+
 Auf der linken Seite sind die verschiedenen Teile abgebildet, die man teilweise ausfüllen muss, damit die Regel greift.
 Als erstes sollte ein kurzer Name gegeben werden, am besten nach einem klaren Schema.
 Dazu eine genaue Beschreibung, damit man sofort sieht was die Regel tun soll, falls sie angepasst werden muss.
 ![Cloud Rule erstellen](bilder/CodeTwo/createRuleName.png "create rule")
 
 #### absender
+
 Unter Senders kann im ersten Feld festgelegt werden, auf wen die Regel zutrifft, entweder alle User, einzelne User, Gruppen, über AD Filter oder Email Adressen ausgewählt.
 Im zweiten Feld kann ich ausnahmen von den oben ausgewählten definieren.
 Sinnvoll ist es hier natürlich, alle Regeln über die Gruppen der AD zu organisieren.
 ![Cloud Rule erstellen](bilder/CodeTwo/createRuleSenders.png "create rule")
 
 #### Empfaenger
+
 Nach dem gleichen Schema kann nur eingestellt werden, für welchen Empfänger die Signatur angehängt wird. Hier kann zwischen Alle, Intern, Extern, Gruppen (in der OU) und email adressen unterschieden werden.
 Im zweiten Feld wieder die Ausnahmen aus der vorherigen Auswahl.
 ![Cloud Rule erstellen](bilder/CodeTwo/createRuleRecipients.png "create rule")
 
 #### Keywords (optional)
+
 es koennen Keywords verwendet werden um eine Regel weiter zu filtern. Auch hier kann entschieden werden, ob das Keyword enthalten sein muss, um die Regel auszuloesen oder ein Keyword die Regel unterdrueckt.
 ![Cloud Rule erstellen](bilder/CodeTwo/createRuleKeywords.png "create rule")
 
@@ -82,17 +87,19 @@ Es koennen einzelne Woerter oder ganze Phrasen, sowie ein * als Pre/Suffix verwe
 Zusaetzlich kann man sogar nocht das Keyword aus der mail entfernen lassen.<br>
 ![Cloud Rule erstellen](bilder/CodeTwo/createRuleKeywords2.png "create rule")
 <br>
+
 #### Scheduler(optional)
+
 Ueber den Scheduler kann die Regel auch Zeitlich gesteuert werden. Dazu muss als erstes die Zeitzone angegeben werden. Es koennen dann komplett freie Zeitintervalle eingegeben werden (sowas wie generelle Feiertage wie Weihnachten) mit Datum und Zeit, oder taeglich/woechentlich/monatlich wiederkehrende Zeiten angegeben werden.
 ![Cloud Rule erstellen](bilder/CodeTwo/createRuleScheduler.png "create rule")
 
 #### Logik
+
 Unter Rules kann die Kaskade aufgebaut werden. 
 Hierzu wird erst entschieden, ob nach erfolgreichem Anweden der Regel die naechste Regel auf der Liste abgearbeitet werden soll, oder nicht.
 Danach wird entschieden, was passiert wenn die Regel nicht angewendet wurde.
 Ueber dieses Logic koennen nun Kaskaden aufgebaut werden. Dabei sollte man vom Sonderfall zu immer allgemeineren Faellen gehen.
 ![Cloud Rule erstellen](bilder/CodeTwo/createRuleLogic.png "create rule")
-
 
 ## Quellen / weitere ressourcen
 
