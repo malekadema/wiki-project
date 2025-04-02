@@ -19,9 +19,7 @@ Bei [TSPlus](https://terminalserviceplus.de) handelt es sich um ein deutsche Pro
 Hostseitig: Ein Windows Server oder Windows 11 Pro. Bei Windows Server werden UserCALs benoetigt
 Clientseitig: Ein RDP Client (OS unabhaengig) oder ein HTML5-faehiger Browser, fuer den Browser RDP
 
-## Hauptteil
-
-### Systemanforderungen
+## Systemanforderungen
 
 |number of users | Hardware |
 | --- | --- |
@@ -32,7 +30,65 @@ Clientseitig: Ein RDP Client (OS unabhaengig) oder ein HTML5-faehiger Browser, f
 
 Each server (physical or virtual ones) can potentially handle up to 50 concurrent users. For over 50 concurrent sessions, we recommend using a farm of servers with the Load Balancing feature available in TSplus Remote Access Enterprise Edition.
 
-### Einsatzzweck der software
+## Installation
+
+diese Informationen basieren auf der Version v18.20 vom 2025/03/25
+
+- [Von der Webseite die aktuelle Installation herunterladen.](https://terminalserviceplus.de/download/)
+- Installation starten und "erweiterte Installation waehlen"
+- Wenn zusaetzlich die security Komponente installiert werden soll, nur das Setup heruntergeladen werden oder eine Proxy eingestellt werden muss, kann es in diesem Schritt getan werden.
+![Installation Komponenten Auswahl](/bilder/TSPlus/installComponents.png "Komponenten Auswahl")
+- Im naechsten Schritt koennen die Web Optionen angepasst werden.
+![Installation Web Optionen](/bilder/TSPlus/installWebOptions.png "Web Optionen")
+- Nach Abschluss der Installation muss der Server neu gestartet werden
+![Abschluss der Installation](/bilder/TSPlus/installComplete.png "Installation Abgeschlossen")
+
+## Konfiguration
+
+diese Informationen basieren auf der Version v18.20 vom 2025/03/25
+
+- Die Admin Konsole startet standardmaessig im Lite Modus. Der Lite Modus gibt zum start einen guten Ueberblick ueber die verschiedenen Funktionen. Ueber die Schaltflaeche rechts oben kann sie in den Expertenmodus versetzt werden.
+![Lite Modus](/bilder/TSPlus/adminLite.png)
+
+- Die Expertenansicht ist in die einzelnen Kategorien unterteilt
+![Experten Ansicht](/bilder/TSPlus/adminExpert.png "Experten Ansicht" )
+
+- Als erstes richten wir den Webzugriff mit dem Zertifikat ein. In der Expertenansicht unter Web und dann HTTPS.
+![Web Einstellungen](/bilder/TSPlus/adminExpertWeb.png "Web Einstellungen")
+
+- Unter HTTPS kann entweder ein bestehendes Zertifikat hinzugefuegt werden, oder ein neues bei Lets Encrypt beantragt werden. Fuer letzteres muss der Port80 fuer das Beantragen des Zertifikats durchgerooted sein.
+![HTTPS Einstellungen](/bilder/TSPlus/adminExpertWebHTTPS.png "HTTPS Einstellungen")
+
+- Um eine neues LE Zertifikat zu beantragen muessen folgende Vorrausetzungen erfuellt sein:
+  - Sie müssen dieses Programm auf dem Gateway-Server oder einem eigenständigen Server und nicht auf einem Anwendungsserver
+ausführen
+  - Sie müssen denTSplus eigenen Webserver (HTTP auf Port 80) verwenden
+  - Der Domänenname Ihres Servers muss über das öffentliche Internet erreichbar sein
+
+- Sind diese Bedingungen erfuellt, kann ein LE Zertifikat angefragt werden. Dazu muss eine Administrator Adresse sowie die Public IP/Domain eingetragen sein.
+![Lets Encrypt Zertifikat](/bilder/TSPlus/adminExpertWebHTTPSLEZert.png "Lets Encrypt Zertifikat")
+
+- Ansonsten kann man auch ein eigenes Zertifikat hinzufuegen
+![Eigenes Zertifikat](/bilder/TSPlus/adminExpertWebHTTPSEigenesZert.png "Eigenes Zertifikat")
+
+- Unter Programme werden die verschiedenen Arten der Zugriffe eingestellt, siehe [genaue Beschreibung](#genaue-beschreibung)
+- Um Shells und Standard Programm einfach auszuwählen, einfach per Doppelklick auf Microsoft Remote Desktop (1) die Auswahl der Gruppen/Nutzer öffnen (2). Hier können entweder alle Authentifizierten Benutzer aktiviert werden, oder einzelne User und Gruppen auswählen.
+
+![Schnellauswahl](/bilder/TSPlus/adminExpertProgrammeAuswahl.png "Schnellauswahl")
+- Als erstes Konfigurieren wir den Microsoft Remote Desktop Modus. Dazu zuerst Rechts auf Zuornung (User/App)(1).
+![Programme](/bilder/TSPlus/adminExpertProgramme.png "Programme")
+
+- Danach Auswahl Benutzer/Gruppen (1) die Auswahl öffnen. Benutzer oder Gruppe in lokalem Computer oder AD suchen (2). Gruppe/Nutzer über das AD Fenster (3) raussuchen und mit Benutzer oder Gruppe hinzufügen(4) auswählen
+![User Auswahl](/bilder/TSPlus/adminExpertProgrammeUser.png "User Auswahl")
+
+- sobald die Gruppe/Benutzer ausgewählt wurde, kann der Microsoft Remote Desktop ausgewählt werden (1) und mittels Veröffentlichen (2) bestätigt werden.
+![Publish](/bilder/TSPlus/adminExpertProgrammePublish.png "Publish")
+
+- über die Schnellauswahlmethode kann kontrolliert werden, welche Nutzer udn Gruppen hinzugefügt wurden
+
+## allgemeine Informationen zur Software selbst
+
+### Einsatzzweck der Software
 
 TSPlus ist als guenstiger Ersatz fuer Windows RDP gedacht, da es Lifetime Lizenzen gibt. TSPlus kann mit jedem RDP Client oder HTML5-faehigen Browser (falls der webdienst verwendet wird) genutzt werden.
 
@@ -78,3 +134,4 @@ Rollen TSE/RDS und TSE/RDS Lizenzen nicht installiert sind
 ## Quellen / weitere ressourcen
 
 [offizielle Webseite](https://terminalserviceplus.de)
+[offizieller Changelog](https://dl-files.com/TSplus-changelog.html)
