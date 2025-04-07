@@ -53,6 +53,8 @@ diese Informationen basieren auf der Version v18.20 vom 2025/03/25
 - Die Expertenansicht ist in die einzelnen Kategorien unterteilt
 ![Experten Ansicht](/bilder/TSPlus/adminExpert.png "Experten Ansicht" )
 
+#### Zertifikat
+
 - Als erstes richten wir den Webzugriff mit dem Zertifikat ein. In der Expertenansicht unter Web und dann HTTPS.
 ![Web Einstellungen](/bilder/TSPlus/adminExpertWeb.png "Web Einstellungen")
 
@@ -71,10 +73,12 @@ ausführen
 - Ansonsten kann man auch ein eigenes Zertifikat hinzufuegen
 ![Eigenes Zertifikat](/bilder/TSPlus/adminExpertWebHTTPSEigenesZert.png "Eigenes Zertifikat")
 
-- Unter Programme werden die verschiedenen Arten der Zugriffe eingestellt, siehe [genaue Beschreibung](#genaue-beschreibung)
-- Um Shells und Standard Programm einfach auszuwählen, einfach per Doppelklick auf Microsoft Remote Desktop (1) die Auswahl der Gruppen/Nutzer öffnen (2). Hier können entweder alle Authentifizierten Benutzer aktiviert werden, oder einzelne User und Gruppen auswählen.
+#### Programm und Gruppen/Benutzer Zuweisung
 
+- Unter Programme werden die verschiedenen Arten der Zugriffe eingestellt, siehe [genaue Beschreibung](#genaue-beschreibung) für Details.
+- Um Shells und Standard Programm einfach auszuwählen, einfach per Doppelklick auf Microsoft Remote Desktop (1) die Auswahl der Gruppen/Nutzer öffnen (2). Hier können entweder alle Authentifizierten Benutzer aktiviert werden, oder einzelne User und Gruppen auswählen. Über Hinzufügen können hier direkt Gruppen und Benutzer hinzugefügt werden. Ich würde eine weitere AD Gruppe empfehlen, um einfacher die Menge der Lizenzen verwalten zu können. Alternativ können auch alle authentifizierten Benutzer ausgewählt werden, ist aber nicht empfehlenswert.
 ![Schnellauswahl](/bilder/TSPlus/adminExpertProgrammeAuswahl.png "Schnellauswahl")
+
 - Als erstes Konfigurieren wir den Microsoft Remote Desktop Modus. Dazu zuerst Rechts auf Zuornung (User/App)(1).
 ![Programme](/bilder/TSPlus/adminExpertProgramme.png "Programme")
 
@@ -84,8 +88,33 @@ ausführen
 - sobald die Gruppe/Benutzer ausgewählt wurde, kann der Microsoft Remote Desktop ausgewählt werden (1) und mittels Veröffentlichen (2) bestätigt werden.
 ![Publish](/bilder/TSPlus/adminExpertProgrammePublish.png "Publish")
 
-- über die Schnellauswahlmethode kann kontrolliert werden, welche Nutzer udn Gruppen hinzugefügt wurden
+- über die Schnellauswahlmethode kann dann nochmal kontrolliert werden, welche Nutzer und Gruppen hinzugefügt wurden.
 
+#### HTML5 Webportal
+
+- das HTML5 Webportal bietet die Möglichkeit sich am Remote anzumelden (egal ob im Full Remote oder auch eine der anderen Arten) ohne einen Remotedesktop Client. Somit können auch sämtliche Mobilgeräte, Tablets oder sonst wie HTML5 fähigen Geräte für den Remote genutzt werden. 
+- Das Webportal kann in seinem Aussehen komplett verändert werden über den geöffneten WYSIWYG Editor
+- ausserdem gibt es noch Einstellmöglichkeiten für eine Portalwebseite
+- das Webportal wird unter Web eingerichtet. 
+![Web Einstellungen](/bilder/TSPlus/adminExpertWeb.png "Web Einstellungen")
+
+- Im Webportal kann über die Reiter Aussehen und Inhalt das allgemeine aussehen des Web Portals angepasst werden. Sinnvoll ist es hier ein Moderneres Thema zu wählen sowie  
+![Web Portal Einstellungen](/bilder/TSPlus/adminExpertWebPortal.png "Web Portal Einstellungen")
+
+- Beispiel für ein angepasstes Web Portal:
+![Web Portal Beispiel](/bilder/TSPlus/adminExpertWebPortalBeispiel.png "Web Portal Beispiel")
+
+- unter Dateiübertragung können die Ordner vom und zum Nutzer eingestellt werden. Die Dateiübertragung kann unter Web - HTML5-Client deaktiviert werden.
+![Dateiübertragung](/bilder/TSPlus/adminExpertWebPortalDateiuebertragung.png)
+
+#### Web Security
+
+- In den Web Einstellungen unter HTML5 Security können diverse Sicherheitseinstellungen gemacht werden, sowie die erlaubten oder verbotenen Dateitypen für den Dateimanager einstellen.
+![HTML5 Sicherheit](/bilder/TSPlus/adminExpertWebSecurity.png)
+
+#### Lizensierung
+
+- Unter Lizenz kann die Comupter-ID eingesehen werden. Diese braucht man, um eine [Lizenz im offiziellen Shop zu kaufen](https://www.shoptsplus.de/Remote-Access-Web-Mobile-Edition-10-User-1-Jahr-Maintenance-inclusive)
 ## allgemeine Informationen zur Software selbst
 
 ### Einsatzzweck der Software
