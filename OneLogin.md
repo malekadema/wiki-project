@@ -42,16 +42,22 @@ Optional kann der Domain Service Account vorher stellt werden, dies geht aber au
 - Am Schluss die checkbox auswaehlen um die zu Sychronisierenden UOs auszuwaehlen
 - im Online Portal sollte die Domain Verbindung schon sichtbar sein
 
-Damit User gesyncht werden, muessen mindestens folgende Felder in ihrem User Profil ausgefuellt sein:
-
-- given name (first name)
-- sn (sur name)
-- mail
-- distinguishedName
-- userPrincipalName
-- sAMAccountName
-- memberOf
-- status
+| Active Directory Field | OneLogin Field | benötigt für Sync |
+| --- | ---: | :-: |
+| **company** | **Company** | ✓ |
+| **givenName** | **firstname** | ✓ |
+| **sn** | **lastname** | ✓ |
+| **mail** | **email** | ✓ |
+| **distinguishedName** | **distinguished_name** | ✓ |
+| **userPrincipalName** | **userprincipalname** | ✓ |
+| **sAMAccountName** | **samaccountname** | ✓ |
+| **memberOf** | **member_of** | ✓ |
+| **status** | **status** | ✓ |
+| department | Department | X |
+| manager | Manager | X |
+| manager's objectGUID | manager_guid | X |
+| objectGUID | Object GUID | X |
+| title | Title | X |
 
 ### Fehlervermeidung
 
