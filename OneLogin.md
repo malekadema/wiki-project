@@ -44,7 +44,6 @@ Optional kann der Domain Service Account vorher stellt werden, dies geht aber au
 
 | Active Directory Field | OneLogin Field | benötigt für Sync |
 | --- | ---: | :-: |
-| **company** | **Company** | ✓ |
 | **givenName** | **firstname** | ✓ |
 | **sn** | **lastname** | ✓ |
 | **mail** | **email** | ✓ |
@@ -53,6 +52,7 @@ Optional kann der Domain Service Account vorher stellt werden, dies geht aber au
 | **sAMAccountName** | **samaccountname** | ✓ |
 | **memberOf** | **member_of** | ✓ |
 | **status** | **status** | ✓ |
+| company | Company | X |
 | department | Department | X |
 | manager | Manager | X |
 | manager's objectGUID | manager_guid | X |
