@@ -101,6 +101,29 @@ Danach wird entschieden, was passiert wenn die Regel nicht angewendet wurde.
 Ueber dieses Logic koennen nun Kaskaden aufgebaut werden. Dabei sollte man vom Sonderfall zu immer allgemeineren Faellen gehen.
 ![Cloud Rule erstellen](bilder/CodeTwo/createRuleLogic.png "create rule")
 
+## Design
+
+### Allgemeines Design mit Abteilungstelefonnummer
+![Aktuelles Desing vom 17.5.2025](bilder/CodeTwo/design2025-05-17.png "aktuelles Design vom 17.5. 2025")
+Dies ist das aktuelle Design vom 17. 05. 2025.
+Alle Platzhalter die mit {} markiert sind, werden durch die ensprechenden Felder aus dem Active Directory aufgefüllt.
+
+| Platzhalter | Attribut im AD | befindet sich in Register | zusätzliche Infos |
+| --- | --- | --- | --- |
+| first name | First Name | General | |
+| last name | Last Name | General | |
+| company | Company | Organization | |
+| title | Job Title | Organization | wird für die Führungspositionen verwendet. Bspw. Abteilungsleitung |
+| department | Department | Organization | wird für die allgemeine Abteilung verwendet|
+| Street | Street | Address | | 
+| Postal Code | Zip/Postal Code | Address | | 
+| City | City | Address | | 
+| Country | Country/region| Address | ist ein Dropdown, es kann also nicht der Kurzcode verwendet werden| 
+| Phone | Telephone Number | General | | 
+| Mobile | Mobile | Telephones | | 
+| E-mail | E-mail | General | | 
+| {RT} {/RT}| | | alles was in den RT Klammern steht, wird nur angezeigt, wenn es im AD eingetragen ist, mitsamt dem Text innerhalb der RT-Klammern| 
+
 ## Quellen / weitere ressourcen
 
 [Video zur Erstellung von Cloud Rules](https://www.youtube.com/watch?v=MKc0JRd0B7s&t=85s)

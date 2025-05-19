@@ -15,4 +15,4 @@ Am besten keine aktive Netzwerkverbindung
 
 - als erstes ruft man die Eingabeaufforderung mittelst Shift+F10 auf
 - in der eingabeaufforderung gibt man oobe\bypassnro ein
-- hjetzt kann der schritt mit dem microsoft konto uebersprungen werden
+- jetzt kann der schritt mit dem microsoft konto uebersprungen werden
