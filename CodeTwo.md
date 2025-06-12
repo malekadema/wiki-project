@@ -101,7 +101,13 @@ Danach wird entschieden, was passiert wenn die Regel nicht angewendet wurde.
 Ueber dieses Logic koennen nun Kaskaden aufgebaut werden. Dabei sollte man vom Sonderfall zu immer allgemeineren Faellen gehen.
 ![Cloud Rule erstellen](bilder/CodeTwo/createRuleLogic.png "create rule")
 
-## Design
+## Signature Editor
+
+### Editor
+
+![Signature Editor](bilder/CodeTwo/signatureEditor.png "Signature Editor")
+
+Der Signature Editor Arbeitet mit vorgefertigten Templates
 
 ### Allgemeines Design mit Abteilungstelefonnummer
 ![Aktuelles Desing vom 17.5.2025](bilder/CodeTwo/design2025-05-17.png "aktuelles Design vom 17.5. 2025")
