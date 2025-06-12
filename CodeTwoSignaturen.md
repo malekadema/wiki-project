@@ -12,18 +12,18 @@ Damit die Signaturen richtig funktionieren, muessen die Nutzerprofile im AD korr
 
 | Name | Attribut im AD | Platzhalter in C2 | zusätzliche Infos |
 | --- | --- | --- | --- |
-| First Name | First Name | {First name} | |
-| Last Name | Last Name | {Last name} | |
-| Job Title | title | {Title} | |
-| Department | department | {Department} | |
-| Company| company | {Company} | |
-| Street | street | {Street} | |
-| Zip/Postal Code | postal code | {Postal code} | |
-| City | city | {City} | |
-| Country/region | country | {Country} | |
-| Telephone Number | phone | {Phone} | |
-| Mobile | mobile | {Mobile} | |
-| Email | E-Mail | {E-mail} | |
+| First Name | First Name | '{First name}' | |
+| Last Name | Last Name | '{Last name}' | |
+| Job Title | title | '{Title}' | |
+| Department | department | '{Department}' | |
+| Company| company | '{Company}' | |
+| Street | street | '{Street}' | |
+| Zip/Postal Code | postal code | '{Postal code}' | |
+| City | city | '{City}' | |
+| Country/region | country | '{Country}' | |
+| Telephone Number | phone | '{Phone}' | |
+| Mobile | mobile | '{Mobile}' | |
+| Email | E-Mail | '{E-mail}' | |
 
 ## Persönlich
 
